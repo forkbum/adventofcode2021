@@ -6,7 +6,7 @@ increases = 0
 curWindowSum = 0
 nextWindowSum = 0
 
-# loop through file - start at 1 not 0
+# loop through file
 for i in range(0,len(measurements)-3):
     # get sum of current sliding window
     curWindowSum = int(measurements[i]) + int(measurements[i+1]) + int(measurements[i+2])
